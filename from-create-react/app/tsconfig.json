@@ -12,10 +12,15 @@
     "jsx": "react",
     "importHelpers": true,
     "noEmitHelpers": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "@page/*": ["src/page/*"],
+      "@component/*": ["src/component/*"],
+      "@share/*": ["src/share/*"]
+    }
   },
   "include": ["./src"]
 }

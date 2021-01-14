@@ -1,3 +1,13 @@
+$mainBg: #61d19f;
+
 .color {
   color: red;
+}
+
+.wrap {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: $mainBg;
 }
